@@ -1,0 +1,16 @@
+#新增一個記事本，儲存成.bat
+
+@echo off
+chcp 65001 >nul
+echo 腳本路徑為:C:\Users\syf\PycharmProjects\pythonProject\0927_Google_Sheet.py
+
+
+:: 切換到 Python 腳本所在的目錄
+cd /d C:\Users\syf\PycharmProjects\pythonProject
+
+:: 使用 Python 執行爬蟲程式
+python 0927_Google_Sheet.py
+
+
+:: 停留在命令提示符視窗中（可選）
+pause
